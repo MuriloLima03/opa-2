@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+
+{% block title %}
+<title>Contato</title>
+{% endblock %}
+
+{% block class %}
+class = "outro_background"
+{% endblock %}
+
+{% block content %}
+<div>
+  <h1>Entre em contato</h1>
+  <p>
+    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur eius
+    aperiam asperiores!
+  </p>
+  <hr />
+</div>
+
+  
+<div>
+  <form action="" method="POST">
+    <label for="email">Seu email:</label><br />
+    <input type="text" name="email" /><br />
+    <label for="assunto">Assunto:</label> <br />
+    <input type="text" name="assunto" /><br />
+    <label for="descricao">Descrição:</label><br />
+    <textarea name="descricao" cols="18" rows="2"></textarea><br />
+    <input type="submit" value="Enviar" />
+  </form>
+</div>
+{% endblock %}
